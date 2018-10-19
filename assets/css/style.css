@@ -1,4 +1,59 @@
 /* <!-- Début partie Mickael --> */
+#logo {
+  vertical-align:middle;
+  border-radius: 20%;
+}
+#logo1 {
+  margin-left: 10%;
+  border-radius: 30%;
+}
+#header {
+  position: absolute;
+}
+.navbar-brand span {
+  font-size:2rem;
+  line-height:1.2;
+  font-weight: 200;
+  display:inline-block;
+  vertical-align:middle;
+  padding:0 0 0 20px;
+}
+#colorhaeder {
+  background-image: url(https://yese69.com/wp-content/uploads/data/2017/12/12/gorgerous-chrome-wallpaper-1920-WTG200221583.jpg);
+  background-size: cover;
+}
+#cart{
+margin-left: 20%;
+}
+#test {
+  font-family:"times new roman", times, serif;
+}
+.navbar-nav {
+  margin-left: 15%;
+  font-size: 200%;
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url(https://yese69.com/wp-content/uploads/data/2017/12/12/gorgerous-chrome-wallpaper-1920-WTG200221583.jpg);
+  color: white;
+  text-align: center;
+}
+#recherche {
+  margin-right: 5%;
+}
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.dot-container {
+  text-align: center;
+  padding: 5px;
+  background: #ddd;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
 
 /* <!-- Fin partie Mickael --> */
 /* <!-- Début partie Benoit --> */
