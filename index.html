@@ -1,121 +1,124 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- Début link global -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Fin link global -->
-    <!-- Début link Mickael -->
-    <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="/home/rutkowski/exercices/projet_2/Projet_Epsilon/assets/img/400px-Greek_lc_epsilon.svg.png">
-    <!-- Fin link Mickael -->
-    <!-- Début link Benoit -->
-    <!-- Fin link Benoit -->
-    <!-- Début link Fa -->
-    <!-- Fin link Fa -->
-    <!-- Début link Khoursa -->
-    <!-- Fin link Khoursa -->
-    <title>Projet Epsilon</title>
-  </head>
-  <body>
-    <!-- Début partie Mickael -->
-    <header>
-      <nav class="navbar navbar-expand-md -light" id ="colorhaeder">
-        <a class="navbar-brand" href="#">
-          <img id="logo" alt="Logo" src="https://cdn.website-editor.net/2e32bd91d6784615a22a924d453f8989/dms3rep/multi/logo_epsilon_trspt.PNG" width="100" height="100">
-          <span id="test">Online<br>Shop</span>
-        </a>
-        <button id="div1" class="navbar-toggler fa" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item" ><a class="nav-link" href="#">Catégorie</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Catégorie</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Catégorie</a></li>
-          </ul>
-        </div>
-        <div id="recherche">
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-            <a href="#"><i id="cart" class="fa fa-cart-arrow-down" style="font-size:48px;color:red"></i></a>
-          </form>
-        </div>
-      </nav>
-    </header>
-
-
-    <p id="demo"></p>
-
-
-
-      <footer class="page-footer font-small blue" id="footer">
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-          <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
-        </div>
-      </footer>
-    <!-- Fin partie Mickael -->
-    <!-- Début partie Benoit -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="offset-sm-1">
-        </div>
-        <div class="col-sm-10" id="entete">
-        </div>
-        <div class="offset-sm-1">
-        </div>
-      </div>
-      <div class="row">
-        <div class="offset-sm-1">
-        </div>
-        <div class="col-sm-10 d-flex align-items-center" id="entete2">
-          <div class="offset-sm-1">
-          </div>
-          <div class="col-sm" id="entete_pic1">
-            <!-- photo du produit + ref -->
-          </div>
-          <div class="offset-sm-1">
-          </div>
-          <div class="col-sm" id="entete_pic2">
-            insérer card ici <!-- photo du produit + ref -->
-          </div>
-          <div class="offset-sm-1">
-          </div>
-          <div class="col-sm" id="entete_pic3">
-            <!-- photo du produit + ref -->
-          </div>
-          <div class="offset-sm-1">
-          </div>
-        </div>
-      </div>
-      <div class="offset-sm-1">
-      </div>
-    <!-- Fin partie Benoit -->
-    <!-- Début partie Fa -->
-    <h2 class="titre">ANIMALERIE</h2><hr width=”50%” />
-      <div class="row top30">
-        <!--Début canard  -->
-        <div class="col-sm-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/canard.jpeg" alt="Canards">
-            <div class="card-produit">
-              <h4 class="produit-info_name">Canards</h4>
-              <p class="product-info_ref" >Référence : Ep181018-1</p>
-              <p>22,50€</p>
-              <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-              <button class="btn btn-primary my-cart-btn" data-id="Ep181018-1" data-name="product 1" data-price="22,50" data-quantity="1">Ajouter au Panier</button>
-            </div>
-  <!-- Fin link Khoursa -->
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="assets/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="/home/benoit/Documents/Dossier_Projets/Projet_Epsilon1/assets/img/400px-Greek_lc_epsilon.svg.png">
   <title>Projet Epsilon</title>
 </head>
 <body>
-  <!-- Début partie Mickael -->
+  <!-- Header -->
+  <a id="index.html"></a>
+  <div class="row">
+    <div class="col-12" id="header">
+      <header>
+        <nav class="navbar navbar-expand-md -light" id ="colorheader">
+          <a class="navbar-brand" href="#">
+            <img id="logo" alt="Logo" src="https://cdn.website-editor.net/2e32bd91d6784615a22a924d453f8989/dms3rep/multi/logo_epsilon_trspt.PNG" width="120" height="120">
+            <div class="zoom">
+              <span class="glow">Online<br>Shop</span>
+            </a>
+          </div>
+          <button id="div1" class="navbar-toggler fa" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item" ><a class="nav-link" href="#titre">Animalerie</a></li>
+              <li class="nav-item"><a class="nav-link" href="#titre2">High Tech</a></li>
+              <li class="nav-item"><a class="nav-link" href="#titre3">Prestation de services</a></li>
+            </ul>
+          </div>
+          <form class="form-inline" action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter email" name="email">
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" placeholder="Enter password" name="pswd">
+            <button type="submit">Submit</button>
+          </form>
+          <a data-toggle="modal" data-target="#exampleModalLong"><i class="fa fa-cart-arrow-down" style="font-size:80px;color: #0069D9"></i></a>
+        </nav>
+      </header>
+    </div>
+  </div>
+  <div class="slideshow-container-fluid" id="fond">
+    <div class="slideshow-container-fluid" id="fond">
+    <div class="mySlides">
+      <q id=entete>Ici vous trouverez de tout et à tous les prix!</q>
+      <p class="author"></p>
+    </div>
+    <div class="mySlides">
+      <q>Une vraie caverne d'Ali Baba!</q>
+      <p class="author"></p>
+    </div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div id="css3dimageslider" class="transparency">
+            <ul>
+              <li> <img style="width: 75%;height: 70%" src="assets/img/TV+Phone_Android.png"> </li>
+              <li> <img style="width: 65%;height: 65%" src="assets/img/samsung-galaxy-s6-edge-2.png"> </li>
+              <li> <img style="width: 65%;height: 65%" src="assets/img/computer_phrase.png"> </li>
+              <li> <img style="width: 65%;height: 65%" src="assets/img/latitude-drone-mavrik-couleur-sans-fond.png"> </li>
+            </ul>
+          </div>
+          <ul id="css3dimagePager">
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <div id="css3dimageslider" class="transparency">
+            <ul>
+              <li> <img style="width: 70%;height: 75%" src="assets/img/canard.png"> </li>
+              <li> <img style="width: 70%;height: 75%" src="assets/img/chienchat.png"> </li>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/a91a9ecc.png"> </li>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/d11695.png"> </li>
+              <li> <img style="width: 80%;height: 85%" src="assets/img/709bdef5.png"> </li>
+            </ul>
+          </div>
+          <ul id="css3dimagePager">
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <div id="css3dimageslider" class="transparency">
+            <ul>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/161181-image2_448x448.png"> </li>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/Adium.png"> </li>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/logo-pk-less-color-sans-fond.png"> </li>
+              <li> <img style="width: 65%;height: 70%" src="assets/img/cropped-Run-car-Events-sans-fond-5308x1296-1.png"> </li>
+            </ul>
+          </div>
+          <ul id="css3dimagePager">
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+            <li class="glow"><i class="fa fa-exchange" style="font-size:150%"></i></li>
+          </ul>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="glow"><i class="fa fa-arrow-circle-left" style="font-size:80px;color:white" aria-hidden="true"></i></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="glow"><i class="fa fa-arrow-circle-right" style="font-size:80px;color:white" aria-hidden="true"></i></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  </div>
   <!-- Fin partie Mickael -->
-  <!-- Début partie Benoit -->
-  <!-- Fin partie Benoit -->
   <!-- Début partie Fa -->
-  <h2 class="titre">ANIMALERIE</h2><hr width=”50%” />
+  <div class="container-fluid">
+    <h2 class="titre" id="titre"><u>ANIMALERIE</u></h2>
     <div class="row top30">
       <!--Début canard  -->
       <div class="col-sm-3">
@@ -124,9 +127,9 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Canards</h4>
             <p class="product-info_ref" >Référence : Ep181018-1</p>
-            <p>22,50€</p>
+            <p>22.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-1" data-name="product 1" data-price="22,50" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-1" id="produit1" data-name="Canard" data-price="22.50" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -138,9 +141,9 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Canetons</h4>
             <p class="product-info_ref" >Référence : Ep181018-2</p>
-            <p>12,50€</p>
+            <p>12.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-2" data-name="product 1" data-price="12,50" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-2" id="produit2" data-name="Canetons" data-price="12.50" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -152,9 +155,9 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Couveuse</h4>
             <p class="product-info_ref" >Référence : Ep181018-3</p>
-            <p>262,50€</p>
+            <p>262.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-3" data-name="product 1" data-price="262,50" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-3" id="produit3" data-name="Couveuse" data-price="262.50" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -167,27 +170,27 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Canard en Plastique</h4>
             <p class="product-info_ref" >Référence : Ep181018-4</p>
-            <p>5,50€</p>
+            <p>5.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-4" data-name="product 1" data-price="5,50" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181018-4" id="produit4" data-name="Canard en plastique" data-price="5.50" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
       <!--Fin canard en Plastique  -->
     </div>
     <!--Catégorie High Tech  -->
-    <h2 class="titre">HIGH TECH</h2><hr width=”50%” />
+    <h2 class="titre" id="titre2"><u>HIGH TECH</u></h2>
     <div class="row top30">
       <!--Début Tel  -->
       <div class="col-sm-3">
         <div class="card">
           <img class="card-img-top" src="assets/img/tel.jpeg" alt="Téléphone">
           <div class="card-produit">
-            <h4 class="produit-info_name">Téléphone</h4>
+            <h4 class="produit-info_name">Samsung ZX-2</h4>
             <p class="product-info_ref" >Référence : Ep181019-1</p>
-            <p>699,90€</p>
+            <p>699.90€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-1" data-name="product 1" data-price="699,90" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-1" id="produit5" data-name="Samsung ZX-2" data-price="699.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -199,13 +202,13 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Coque</h4>
             <p class="product-info_ref" >Référence : Ep181019-2</p>
-            <p>19,50€</p>
+            <p>19.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-2" data-name="product 1" data-price="19,90" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-2" id="produit6" data-name="Coque tel" data-price="19.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
-      <!--Fin Coque -->
+      <!--Fin  Coque -->
       <!--Début casque  -->
       <div class="col-sm-3">
         <div class="card">
@@ -213,9 +216,9 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Casque</h4>
             <p class="product-info_ref" >Référence : Ep181019-3</p>
-            <p>19,50€</p>
+            <p>19.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-3" data-name="product 1" data-price="19,90" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-3" id="produit7" data-name="Casque audio" data-price="19.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
@@ -227,114 +230,295 @@
           <div class="card-produit">
             <h4 class="produit-info_name">Support</h4>
             <p class="product-info_ref" >Référence : Ep181019-4</p>
-            <p>19,50€</p>
+            <p>19.50€</p>
             <p><img src="assets/img/icon_3x.png" alt="icon_3x"> Paiement en 3X sans frais</p>
-            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-4" data-name="product 1" data-price="19,90" data-quantity="1">Ajouter au Panier</button>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181019-4" id="produit8" data-name="Support tel" data-price="19.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
     </div>
-      <!-- Fin support tél -->
-      <!-- Prestatios de services -->
-      <h2 class="titre">PRESTATION DE SERVICES</h2><hr width=”50%” />
-      <div class="row top30">
-        <div class="col-sm-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/repassage.jpeg" alt="Repassage">
-            <div class="card-produit">
-              <h4 class="produit-info_name">Le Repassage ?</h4>
-              <p>Votre panier à linge déborde...</p>
-              <p>Epsilon s'occupe de vos vêtements!</p>
-              <p>17,90€/H</p>
-              <p class="product-info_ref" >Référence : Ep181020-1</p>
-              <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-1" data-name="product 1" data-price="17,90" data-quantity="1">Ajouter au Panier</button>
-            </div>
+    <!-- Fin support tél -->
+    <!-- Prestatios de services -->
+    <h2 class="titre" id="titre3"><u>PRESTATION DE SERVICES</u></h2>
+    <div class="row top30">
+      <div class="col-sm-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/repassage.jpeg" alt="Repassage">
+          <div class="card-produit">
+            <h4 class="produit-info_name">Le Repassage ?</h4>
+            <p>Votre panier à linge déborde...</p>
+            <p>Epsilon s'occupe de vos vêtements!</p>
+            <p>17.90€/H</p>
+            <p class="product-info_ref" >Référence : Ep181020-1</p>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-1" id="produit9" data-name="1h repassage" data-price="17.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
-        <!--Fin repassage  -->
-        <!--Ménage  -->
-        <div class="col-sm-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/menage.jpeg" alt="Ménage">
-            <div class="card-produit">
-              <h4 class="produit-info_name">Le Ménage?</h4>
-              <p>Une affaire d'experts!</p>
-              <p>Confiez le à Epsilon!</p>
-              <p>17,90€/H</p>
-              <p class="product-info_ref" >Référence : Ep181020-2</p>
-              <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-2" data-name="product 1" data-price="17,90" data-quantity="1">Ajouter au Panier</button>
-            </div>
+      </div>
+      <!--Fin repassage  -->
+      <!--Ménage  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/menage.jpeg" alt="Ménage">
+          <div class="card-produit">
+            <h4 class="produit-info_name">Le Ménage?</h4>
+            <p>Une affaire d'experts!</p>
+            <p>Confiez le à Epsilon!</p>
+            <p>17.90€/H</p>
+            <p class="product-info_ref" >Référence : Ep181020-2</p>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-2" id="produit10" data-name="1h ménage" data-price="17.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
-        <!--Fin ménage  -->
-        <!--Plomberie  -->
-        <div class="col-sm-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/plombier.jpeg" alt="Plomberir">
-            <div class="card-produit">
-              <h4 class="produit-info_name">La plomberie</h4>
-              <p>Ça déborde chez vous?</p>
-              <p>Epsilon intervient en 30mn</p>
-              <p>59,90€/H</p>
-              <p class="product-info_ref" >Référence : Ep181020-3</p>
-              <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-3" data-name="product 1" data-price="59,90" data-quantity="1">Ajouter au Panier</button>
-            </div>
+      </div>
+      <!--Fin ménage  -->
+      <!--Plomberie  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/plombier.jpeg" alt="Plomberir">
+          <div class="card-produit">
+            <h4 class="produit-info_name">La plomberie</h4>
+            <p>Ça déborde chez vous?</p>
+            <p>Epsilon intervient en 30mn</p>
+            <p>59.90€/H</p>
+            <p class="product-info_ref" >Référence : Ep181020-3</p>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-3" id="produit11" data-name="1h plomberie" data-price="59.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
-        <!--Fin plomberie  -->
-        <!--Super formateur  -->
-        <div class="col-sm-3">
-          <div class="card">
-            <img class="card-img-top" src="assets/img/jp.jpeg" alt="Formateur">
-            <div class="card-produit">
-              <h4 class="produit-info_name">La Formation</h4>
-              <p>Vous cherchez un formateur Dév Web?</p>
-              <p>Faites appel à JP #br</p>
-              <p>159,90€/H</p>
-              <p class="product-info_ref" >Référence : Ep181020-4</p>
-              <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-4" data-name="product 1" data-price="159,90" data-quantity="1">Ajouter au Panier</button>
-            </div>
+      </div>
+      <!--Fin plomberie  -->
+      <!--Super formateur  -->
+      <div class="col-sm-3">
+        <div class="card">
+          <img class="card-img-top" src="assets/img/jp.jpeg" alt="Formateur">
+          <div class="card-produit">
+            <h4 class="produit-info_name">La Formation</h4>
+            <p>Vous cherchez un formateur Dév Web?</p>
+            <p>Faites appel à JP #br</p>
+            <p>159.90€/H</p>
+            <p class="product-info_ref" >Référence : Ep181020-4</p>
+            <button class="btn btn-secondary my-cart-btn" data-id="Ep181020-4" id="produit12" data-name="1h coaching" data-price="159.90" data-quantity="1">Ajouter au Panier</button>
           </div>
         </div>
       </div>
     </div>
-    <footer class="page-footer font-small blue" id="footer">
-  <div class="footer-copyright text-center py-3">Epsilon© 2018 Copyright:<a href="https://mdbootstrap.com/bootstrap-tutorial/%22%3E"></a></div>
-  <div class="row">
-    <div class="col-sm-3">
-      <p style="color:white"><img src="assets/img/picto_transport.png" alt="Picto Transport">Transport GRATUIT DES 120€ TTC</p>
-    </div>
-    <div class="col-sm-3">
-      <p style="color:white"><img src="assets/img/picto_depart.png" alt="Picto départ">DEPART SOUS 24H/48H</p>
-    </div>
-    <div class="col-sm-3">
-      <p style="color:white"><img src="assets/img/picto_paiement.png" alt="Picto Transport">PAIEMENT SECURISE CB</p>
-    </div>
-    <div class="col-sm-3">
-      <p style="color:white"><img src="assets/img/picto_virement.png" alt="Picto virement">VIREMENT ET CHEQUE</p>
-      </div>
   </div>
-</footer>
+  <div class="fa"><a href="#index.html"><img src="assets/img/arrow_up.png" alt="flèche" title="retour en haut"/></a></div>
+  <footer class="page-footer font-small blue" id="footer">
+    <div class="footer-copyright text-center py-3" style="color:white">Epsilon© 2018 Copyright:<a href="https://mdbootstrap.com/bootstrap-tutorial/%22%3E"></a></div>
+    <div class="row">
+      <div class="col-sm-3">
+        <p style="color:white"><img src="assets/img/picto_transport.png" alt="Picto Transport">Transport GRATUIT DES 120€ TTC</p>
+      </div>
+      <div class="col-sm-3">
+        <p style="color:white"><img src="assets/img/picto_depart.png" alt="Picto départ">DEPART SOUS 24H/48H</p>
+      </div>
+      <div class="col-sm-3">
+        <p style="color:white"><img src="assets/img/picto_paiement.png" alt="Picto Transport">PAIEMENT SECURISE CB</p>
+      </div>
+      <div class="col-sm-3">
+        <p style="color:white"><img src="assets/img/picto_virement.png" alt="Picto virement">VIREMENT ET CHEQUE</p>
+      </div>
+    </div>
+  </footer>
   <!-- Fin partie Fa -->
   <!-- Début partie Khoursa-->
-  <!-- Fin partie Khoursa -->
-  <!-- Debut script Global -->
+  <div class="modal fade bd-example-modal-lg" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLongTitle">Votre Panier</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+          <table style="width:100%">
+	        <tr>
+	          <th>Article</th>
+	          <th>Prix Unitaire</th>
+	          <th>Quantité</th>
+	          <th>Prix total</th>
+	        </tr>
+	        <tr class="hidden" id="tr1">
+	          <td id="art1"></td>
+	          <td id="price1"></td>
+	          <td id="qt1">
+	            <input type="text" value="1" class="form-control" id="nombreClick1" readonly></input><br>
+	            <button type="button" name="button" id="ajouter1" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer1" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice1"></p>
+	          </td>
+	          <td><button type="button" id="rmv1" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr2">
+	          <td id="art2"></td>
+	          <td id="price2"></td>
+	          <td id="qt2">
+	            <input type="text" value="1" class="form-control" id="nombreClick2" readonly></input><br>
+	            <button type="button" name="button" id="ajouter2" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer2" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice2"></p>
+	          </td>
+	          <td><button type="button" id="rmv2" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr3">
+	          <td id="art3"></td>
+	          <td id="price3"></td>
+	          <td id="qt3">
+	            <input type="text" value="1" class="form-control" id="nombreClick3" readonly></input><br>
+	            <button type="button" name="button" id="ajouter3" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer3" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice3"></p>
+	          </td>
+	          <td><button type="button" id="rmv3" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr4">
+	          <td id="art4"></td>
+	          <td id="price4"></td>
+	          <td id="qt4">
+	            <input type="text" value="1" class="form-control" id="nombreClick4" readonly></input><br>
+	            <button type="button" name="button" id="ajouter4" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer4" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice4"></p>
+	          </td>
+	          <td><button type="button" id="rmv4" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr5">
+	          <td id="art5"></td>
+	          <td id="price5"></td>
+	          <td id="qt5">
+	            <input type="text" value="1" class="form-control" id="nombreClick5" readonly></input><br>
+	            <button type="button" name="button" id="ajouter5" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer5" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice5"></p>
+	          </td>
+	          <td><button type="button" id="rmv5" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr6">
+	          <td id="art6"></td>
+	          <td id="price6"></td>
+	          <td id="qt6">
+	            <input type="text" value="1" class="form-control" id="nombreClick6" readonly></input><br>
+	            <button type="button" name="button" id="ajouter6" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer6" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice6"></p>
+	          </td>
+	          <td><button type="button" id="rmv6" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr7">
+	          <td id="art7"></td>
+	          <td id="price7"></td>
+	          <td id="qt7">
+	            <input type="text" value="1" class="form-control" id="nombreClick7" readonly></input><br>
+	            <button type="button" name="button" id="ajouter7" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer7" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice7"></p>
+	          </td>
+	          <td><button type="button" id="rmv7" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr8">
+	          <td id="art8"></td>
+	          <td id="price8"></td>
+	          <td id="qt8">
+	            <input type="text" value="1" class="form-control" id="nombreClick8" readonly></input><br>
+	            <button type="button" name="button" id="ajouter8" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer8" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice8"></p>
+	          </td>
+	          <td><button type="button" id="rmv8" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr9">
+	          <td id="art9"></td>
+	          <td id="price9"></td>
+	          <td id="qt9">
+	            <input type="text" value="1" class="form-control" id="nombreClick9" readonly></input><br>
+	            <button type="button" name="button" id="ajouter9" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer9" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice9"></p>
+	          </td>
+	          <td><button type="button" id="rmv9" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr10">
+	          <td id="art10"></td>
+	          <td id="price10"></td>
+	          <td id="qt10">
+	            <input type="text" value="1" class="form-control" id="nombreClick10" readonly></input><br>
+	            <button type="button" name="button" id="ajouter10" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer10" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice10"></p>
+	          </td>
+	          <td><button type="button" id="rmv10" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr11">
+	          <td id="art11"></td>
+	          <td id="price11"></td>
+	          <td id="qt11">
+	            <input type="text" value="1" class="form-control" id="nombreClick11" readonly></input><br>
+	            <button type="button" name="button" id="ajouter11" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer11" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice11"></p>
+	          </td>
+	          <td><button type="button" id="rmv11" class="btn btn-danger">X</button></td>
+	        </tr>
+	        <!-- article -->
+	        <tr class="hidden" id="tr12">
+	          <td id="art12"></td>
+	          <td id="price12"></td>
+	          <td id="qt12">
+	            <input type="text" value="1" class="form-control" id="nombreClick12" readonly></input><br>
+	            <button type="button" name="button" id="ajouter12" class="btn btn-primary zbeub">+</button>
+	            <button type="button" name="button" id="retirer12" class="btn btn-primary zbeub">-</button>
+	          </td>
+	          <td>
+	            <p id="totalPrice12"></p>
+	          </td>
+	          <td><button type="button" id="rmv12" class="btn btn-danger">X</button></td>
+	        </tr>
+        </table>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermez!</button>
+	        <button type="button" class="btn btn-primary" onclick="payer()">Payez!</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="assets/js/script.js" charset="utf-8"></script>
-  <!-- Fin script Global -->
-  <!-- Début script Mickael -->
 
-  <!-- Fin script Mickael -->
-  <!-- Début script Benoit -->
-
-  <!-- Fin script Benoit -->
-  <!-- Début script Fa -->
-
-  <!-- Fin script Fa -->
-  <!-- Début script Khoursa -->
-
-  <!-- Fin script Khoursa -->
 </body>
 </html>
