@@ -88,6 +88,9 @@ $(function() {
     after: function(){}     // Function: After callback
   });
 
+
+
+
 // <!-- Fin partie Mickael -->
 // <!-- Début partie Benoit -->
 
